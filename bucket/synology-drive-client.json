@@ -18,7 +18,7 @@
     },
     "shortcuts": [
         [
-            "bin\\SynologyDriveClient.exe",
+            "Synology\\SynologyDrive\\bin\\launcher.exe",
             "Synology Drive Client"
         ]
     ],
