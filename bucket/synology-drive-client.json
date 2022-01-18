@@ -1,0 +1,39 @@
+{
+    "version": "3.0.3-12689",
+    "description": "Transform your Synology NAS into your own private cloud with 100% data ownership at zero additional cost.",
+    "homepage": "https://www.synology.cn/zh-cn/dsm/feature/drive",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.synology.cn/zh-cn/company/legal/terms_EULA"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/3.0.3-12689/Windows/Installer/Synology%20Drive%20Client-3.0.3-12689.msi",
+            "hash": "8cb1820c6bb44938e8b4f1af96a5980e9b727da8fea9a929112520466547384c"
+        },
+        "64bit": {
+            "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/3.0.3-12689/Windows/Installer/Synology%20Drive%20Client-3.0.3-12689.msi",
+            "hash": "8cb1820c6bb44938e8b4f1af96a5980e9b727da8fea9a929112520466547384c"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\SynologyDriveClient.exe",
+            "Synology Drive Client"
+        ]
+    ],
+    "checkver": {
+        "url": "https://archive.synology.com/download/Utility/SynologyDriveClient",
+        "regex": "/download/Utility/SynologyDriveClient/([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/$version/Windows/Installer/Synology%20Drive%20Client-$version.msi"
+            },
+            "64bit": {
+                "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/$version/Windows/Installer/Synology%20Drive%20Client-$version.msi"
+            }
+        }
+    }
+}
