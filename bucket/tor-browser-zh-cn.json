@@ -6,11 +6,11 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://dist.torproject.org/torbrowser/11.0.6/torbrowser-install-win64-11.0.3_zh-CN.exe",
-            "hash": "352ad38bd474a33cac8093d72a0fc5ad7900eb2c0bfd97ebc9f21f65e39a65d1"
+            "url": "https://dist.torproject.org/torbrowser/11.0.6/torbrowser-install-win64-11.0.6_zh-CN.exe",
+            "hash": "5a442cb214e39da9970069f3fc10c2a4af73cdcabbf31f6789affd1748029f53"
         },
         "32bit": {
-            "url": "https://dist.torproject.org/torbrowser/11.0.6/torbrowser-install-11.0.3_zh-CN.exe",
+            "url": "https://dist.torproject.org/torbrowser/11.0.6/torbrowser-install-11.0.6_zh-CN.exe",
             "hash": "cf0f8819f17fd3f5f72cf38bc380e5e5570f25bbee717fa1fa6cbf17ae993dad"
         }
     },
