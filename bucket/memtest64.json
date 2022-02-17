@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.techpowerup.com/memtest64/",
+    "description": "TechPowerUp Memtest64 is a lightweight, standalone utility that lets you check your system memory for problems at the hardware-level. It has a graphical interface, and can be run from within Windows.",
+    "license": "https://www.techpowerup.com/contact/",
+    "version": "1.0",
+    "url": "https://us5-dl.techpowerup.com/files/XePFda8R3Mw7eVH5qptR_g/1645135732/MemTest64.exe",
+    "hash": "a0ee511d6f0d87f55f4a27f0e2f989b6abd8cef91a4b19903d791186cae09e2c",
+    "shortcuts": [
+        [
+            "MemTest64.exe",
+            "MemTest64"
+        ]
+    ]
+}
