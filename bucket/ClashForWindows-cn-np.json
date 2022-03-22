@@ -11,11 +11,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.do/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.12/Clash.for.Windows-0.19.12-win.7z",
+            "url": "https://github-do.panbaidu.cn/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.12/Clash.for.Windows-0.19.12-win.7z",
             "hash": "6d890e0edf21047a4fa613551b4c1947f3cba22c9e5da2beb29830fde85cac15"
         },
         "32bit": {
-            "url": "https://github.do/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.12/Clash.for.Windows-0.19.12-ia32-win.7z",
+            "url": "https://github-do.panbaidu.cn/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.12/Clash.for.Windows-0.19.12-ia32-win.7z",
             "hash": "7e2213c4a6d78f83d716db739d510c3acd22fa43cf8aff213bcbfaa11310618a"
         }
     },
