@@ -7,7 +7,7 @@
         "此版本是原版汉化，未删减版本",
         "软件仅供学习，24小时内删除"
     ],
-    "depends": "xon-scoop/ClashForWindows-np.json",
+    "depends": "xon-scoop/ClashForWindows-cn-np",
     "url": "https://github.com/BoyceLig/Clash_Chinese_Patch/releases/download/0.19.12/app.7z",
     "hash": "4aaf98309fde98ecda4b1071b5d14ad0c7c1bed8341529c49a9ca30c1fd8c845",
     "installer": {
