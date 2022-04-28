@@ -1,5 +1,5 @@
 {
-    "version": "3.1.0-12920",
+    "version": "3.1.0-12923",
     "description": "Transform your Synology NAS into your own private cloud with 100% data ownership at zero additional cost.",
     "homepage": "https://www.synology.cn/zh-cn/dsm/feature/drive",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/3.1.0-12920/Windows/Installer/Synology%20Drive%20Client-3.1.0-12920.msi",
-            "hash": "264776a1438d3848a2500dbf846d37a95c9873b20301aeb8db650f0a1bcd6515"
+            "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/3.1.0-12923/Windows/Installer/Synology%20Drive%20Client-3.1.0-12923.msi",
+            "hash": "b1d328b62cc4b83194863f8aebf435e953d150c7da9018b580afb77cc79fc78b"
         },
         "64bit": {
-            "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/3.1.0-12920/Windows/Installer/Synology%20Drive%20Client-3.1.0-12920.msi",
-            "hash": "264776a1438d3848a2500dbf846d37a95c9873b20301aeb8db650f0a1bcd6515"
+            "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/3.1.0-12923/Windows/Installer/Synology%20Drive%20Client-3.1.0-12923.msi",
+            "hash": "b1d328b62cc4b83194863f8aebf435e953d150c7da9018b580afb77cc79fc78b"
         }
     },
     "shortcuts": [
