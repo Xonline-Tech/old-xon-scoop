@@ -3,6 +3,11 @@
     "description": "Save time and money on your PL/SQL Development",
     "license": "https://www.allroundautomations.com/license-terms/",
     "homepage": "https://www.allroundautomations.com/registered/plsqldev.html",
+    "notes": [
+        "product code: ke4tv8t5jtxz493kl8s2nn3t6xgngcmgf3",
+        "serial Number: 264452",
+        "password: xs374ca"
+    ],
     "depends": "oracle-instant-client",
     "architecture": {
         "32bit": {
