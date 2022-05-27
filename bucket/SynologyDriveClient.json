@@ -1,21 +1,13 @@
 {
-    "version": "2.3.0-2153",
-    "description": "Manage backup tasks for physical and virtual environments from a centralized dashboard to keep your data and services always available.",
-    "homepage": "https://www.synology.com/en-global/dsm/feature/active-backup-business",
+    "version": "3.1.0-12923",
+    "description": "一台 Synology NAS，即可 打造您的专属私有云，无需额外费用，您可全权掌控自己的数据。",
+    "homepage": "https://www.synology.cn/zh-cn/dsm/feature/drive",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.synology.com/en-global/company/legal/terms_EULA"
     },
-    "architecture": {
-        "32bit": {
-            "url": "https://global.download.synology.com/download/Utility/ActiveBackupBusinessAgent/2.3.0-2153/Windows/x86_64/Synology%20Active%20Backup%20for%20Business%20Agent-2.3.0-2153-x64.msi",
-            "hash": "b1d328b62cc4b83194863f8aebf435e953d150c7da9018b580afb77cc79fc78b"
-        },
-        "64bit": {
-            "url": "https://global.download.synology.com/download/Utility/ActiveBackupBusinessAgent/2.3.0-2153/Windows/i686/Synology%20Active%20Backup%20for%20Business%20Agent-2.3.0-2153-x86.msi",
-            "hash": "b1d328b62cc4b83194863f8aebf435e953d150c7da9018b580afb77cc79fc78b"
-        }
-    },
+    "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/3.1.0-12923/Windows/Installer/Synology%20Drive%20Client-3.1.0-12923.msi",
+    "hash": "b1d328b62cc4b83194863f8aebf435e953d150c7da9018b580afb77cc79fc78b",
     "shortcuts": [
         [
             "Synology\\SynologyDrive\\bin\\launcher.exe",
@@ -23,17 +15,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://archive.synology.com/download/Utility/ActiveBackupBusinessAgent",
-        "regex": "/download/Utility/ActiveBackupBusinessAgent/([\\d.-]+)"
+        "url": "https://archive.synology.com/download/Utility/SynologyDriveClient",
+        "regex": "/download/Utility/SynologyDriveClient/([\\d.-]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/$version/Windows/x86_64/Synology%20Active%20Backup%20for%20Business%20Agent-x64.msi"
-            },
-            "64bit": {
-                "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/$version/Windows/i686/Synology%20Active%20Backup%20for%20Business%20Agent-$version-x86.msi"
-            }
-        }
+        "url": "https://global.download.synology.com/download/Utility/SynologyDriveClient/$version/Windows/Installer/Synology%20Drive%20Client-$version.msi"
     }
 }
