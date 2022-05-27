@@ -1,0 +1,27 @@
+{
+    "version": "10.0.19",
+    "description": "领先的企业级Web报表工具,专为企业数据分析而设计",
+    "homepage": "https://www.finereport.com/",
+    "depends": "uniextract2",
+    "url": "https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/10.0/stable/exe/windows_x64_FineReport-CN-jdk11.exe",
+    "hash": "656ff3946222048a5558160023da6fd8abc6fa9569f7ac1dff058410a3db6f28",
+    "installer": {
+        "script": [
+            "Invoke-ExternalCommand uniextract -ArgumentList @(\"$dir\\setup.exe\", \"$dir\", '/silent') | Out-Null",
+            "Remove-Item \"$dir\\setup.exe\""
+        ]
+    },
+    "shortcuts": [
+        [
+            "bin\\designer.exe",
+            "FineReport Designer 10"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.finereport.com/product/history",
+        "regex": "<h3>FineReport (10.[\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/$matchShort/stable/exe/windows_x64_FineReport-CN-jdk11.exe"
+    }
+}
