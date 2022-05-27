@@ -3,7 +3,7 @@
     "description": "领先的企业级Web报表工具,专为企业数据分析而设计",
     "homepage": "https://www.finereport.com/",
     "depends": "uniextract2",
-    "url": "https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/10.0/stable/exe/windows_x64_FineReport-CN-jdk11.exe",
+    "url": "https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/10.0/stable/exe/windows_x64_FineReport-CN-jdk11.exe#/setup.exe",
     "hash": "c1f60fbc6b19e737216c06a586ce735be4dcdeaf1441acbb2ba775753bde78a9",
     "installer": {
         "script": [
@@ -22,6 +22,6 @@
         "regex": "<h3>FineReport (10.[\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/$matchShort/stable/exe/windows_x64_FineReport-CN-jdk11.exe"
+        "url": "https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/$matchShort/stable/exe/windows_x64_FineReport-CN-jdk11.exe#/setup.exe"
     }
 }
