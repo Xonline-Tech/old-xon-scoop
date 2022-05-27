@@ -4,7 +4,7 @@
     "homepage": "https://www.finereport.com/",
     "depends": "uniextract2",
     "url": "https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/10.0/stable/exe/windows_x64_FineReport-CN-jdk11.exe",
-    "hash": "656ff3946222048a5558160023da6fd8abc6fa9569f7ac1dff058410a3db6f28",
+    "hash": "c1f60fbc6b19e737216c06a586ce735be4dcdeaf1441acbb2ba775753bde78a9",
     "installer": {
         "script": [
             "Invoke-ExternalCommand uniextract -ArgumentList @(\"$dir\\setup.exe\", \"$dir\", '/silent') | Out-Null",
