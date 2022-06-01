@@ -27,8 +27,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22%3A%22app%22%2C%22channel%22%3A%220300000000%22%2C%22platform%22%3A%22windows%22%7D%5D&c_os=web&c_os_version=1&c_os_model=web&c_timestamp=1654049185705&c_instance_id=5&c_nonce=wpRSwERY&c_app_id=1400143280&c_app_version=1&c_lang=zh-cn&c_district=0&nonce=kKncf5KwEFiPd5Dy",
-        "script": "(Invoke-WebRequest -Body '[{\"instance\":\"windows\",\"type\":\"0300000000\"}]' -Method 'POST' -Uri $url).Content",
+        "url": "https://meeting.tencent.com/web-service/query-download-info?q=[{\"package-type\":\"app\",\"channel\":\"0300000000\",\"platform\":\"windows\"}]&c_os=web&c_os_version=1&c_os_model=web&c_timestamp=1654049185705&c_instance_id=5&c_nonce=wpRSwERY&c_app_id=1400143280&c_app_version=1&c_lang=zh-cn&c_district=0&nonce=kKncf5KwEFiPd5Dy",
         "regex": "https://(?<url>.*?\\.exe).*?version\".*?\"([\\d.]+)\""
     },
     "autoupdate": {
