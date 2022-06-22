@@ -9,7 +9,7 @@
         "script": [
             "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList \"-q -dir $dir\" -RunAs | Out-Null",
             "Wait-Process -Name 'setup' -ErrorAction SilentlyContinue",
-            "Remove-Item -Recurse \"$([Environment]::GetFolderPath('commonstartmenu'))\\Programs\\FineReport_10.0\""
+            "Remove-Item -Recurse \"$([Environment]::GetFolderPath('commonstartmenu'))\\Programs\\FineReport_11.0\""
         ]
     },
     "shortcuts": [
